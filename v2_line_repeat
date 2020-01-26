@@ -1,0 +1,26 @@
+//little sketch to step and repeat a line using a while loop 
+
+function setup() {
+  createCanvas(400, 400);
+}
+
+
+function draw() {
+  background(220);
+  /*
+  var dx=0;
+  line(100+dx,100,200+dx,300);
+  dx=dx+30;
+  line(100+dx,100,200+dx,300);
+  dx=dx+30;
+  line(100+dx,100,200+dx,300);
+  */
+  
+  //while
+  
+  var dx=0;
+  while(dx<100){
+    line(100+dx,100,200+dx,300);
+    dx=dx+30;
+  }
+}
